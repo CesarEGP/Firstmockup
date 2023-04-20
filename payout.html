@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Payout</title>
     <link rel="stylesheet" href="styles.css">
     <!-- font de google api -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,8 @@
 
         <nav>
             <ul>
-                <li id="li1"><a href="" id="a1">Menu</a></li>
-                <li id="li2"><a href="login.html" id="a2">Login</a></li>
+                <li id="li1"><a href="login.html" id="a1">Menu</a></li>
+                <li id="li2"><a href="" id="a2">User</a></li>
                 <li id="li3"><a href="" id="a3">Card</a></li>
             </ul>
         </nav>
@@ -31,26 +31,24 @@
     <main>
         <div>
             <section class="section">
-                <h1 id="Reslog">Restaurante</h1>
-                
-                <form action="set_data" method="post">
-                    <label for="data">Descripción</label>
-                    <br>
-                    <input type="text" id="data" name="data">                                                          
-                </form>            
-                <li id="li4"><a href="reserve.html" id="a1">Reservar</a></li> 
-            </section>
-            <section class="section2">
-                <nav></nav>
-            </section>
+                <br>
+                <h1 id="Reserv">Método de Pago</h1>
+                <br>
+                <br>                
+            </section> 
+            <section id="secf">
+                <div>
+                    <input type="button" value="Metodo1" class="btn-mtd">
+                    <input type="button" value="Metodo2" class="btn-mtd">
+                </div>                
+                <div id="sep">
+                    <input type="button" value="Metodo3" class="btn-mtd">
+                    <input type="button" value="Metodo4" class="btn-mtd">
+                </div>
+            </section>           
         </div>                    
     </main>
-    <footer id="footfinal">
-        <h2>Ubicación</h2>
-        <div id="div1">                        
-            <img src="https://i.blogs.es/ade34e/google-maps-portada-trafico/1366_2000.webp" alt="not found" id="img-ub">        
-        </div>
-    </footer>
+    
 </body>
 
 </html>
